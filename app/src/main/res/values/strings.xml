@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JWei</string>
+    <string name="action_settings">Settings</string>
+    <string name="fa_user">&#xf007;</string>
+    <string name="fa_cogs">&#xf085;</string>
+    <string name="fa_comments">&#xf086;</string>
+    <string name="fa_search">&#xf002;</string>
+    <string name="title_activity_weixin">Weixin</string>
+</resources>

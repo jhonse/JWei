@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#fafbfe"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:id="@+id/id_tab_tool"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+        <!-- android:clickable="false" 是为了防止ImageButton截取了触摸事件 ，这里事件要给它的上一级linearlayout-->
+
+        <TextView
+            android:id="@+id/id_tab_icon_tool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fa_cogs"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#a9a9a9"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/id_tab_title_tool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="#a9a9a9"
+            android:text="工具"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_chat"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/id_tab_icon_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fa_comments"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#a9a9a9"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/id_tab_title_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#a9a9a9"
+            android:layout_marginTop="2dp"
+            android:text="群聊"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_find"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/id_tab_icon_find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fa_search"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#a9a9a9"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/id_tab_title_find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#a9a9a9"
+            android:layout_marginTop="2dp"
+            android:text="发现"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_my"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/id_tab_icon_my"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fa_user"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#a9a9a9"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/id_tab_title_my"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#a9a9a9"
+            android:layout_marginTop="2dp"
+            android:text="我"
+            />
+    </LinearLayout>
+
+</LinearLayout>
