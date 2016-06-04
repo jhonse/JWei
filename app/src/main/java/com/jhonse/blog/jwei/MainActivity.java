@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         init();
 
+        //顶部
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -29,7 +30,11 @@ public class MainActivity extends AppCompatActivity {
         });*/
     }
 
+    /**
+     * 初始化
+     */
     private void init(){
+        //初始化底部
         footerPage.init(this);
     }
 
@@ -41,12 +46,8 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
         }
