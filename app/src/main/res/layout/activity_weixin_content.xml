@@ -6,7 +6,7 @@
 
     <!--主菜单-->
     <GridView
-        android:id="@+id/contentMainMenu"
+        android:id="@+id/activit_weixin_gridview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:numColumns="4"

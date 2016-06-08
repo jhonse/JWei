@@ -2,10 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.jhonse.blog.jwei.MainActivity">
+    tools:context="com.jhonse.blog.jwei.activity.tool.HongbaoActivity">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/activity_weixin_menu_hongbao_settings_return"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="@string/activity_weixin_menu_setting_return"
         app:showAsAction="never" />
 </menu>

@@ -1,9 +1,13 @@
 <resources>
-    <string name="app_name">JWei</string>
+    <string name="app_name">J微</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_weixin">微信</string>
+    <string name="activity_weixin_menu_setting_return">返回主菜单</string>
     <string name="fa_user">&#xf007;</string>
     <string name="fa_cogs">&#xf085;</string>
     <string name="fa_comments">&#xf086;</string>
     <string name="fa_search">&#xf002;</string>
-    <string name="title_activity_weixin">Weixin</string>
+    <string name="title_activity_hongbao">红包</string>
+
+    <string name="accessibilityservice_desc">辅助工具描述</string>
 </resources>

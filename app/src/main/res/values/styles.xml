@@ -15,4 +15,14 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="toolHongbaoSettingText">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_weight">6</item>
+    </style>
+
+    <style name="toolHongbaoCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
 </resources>
